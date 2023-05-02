@@ -81,11 +81,14 @@ main {
   padding-top: 50px;
 }
 
-@media (min-width: 318px) and (max-width: 680px) {
-  main {
-    height: auto;
-    width: 100%;
-  }
+.main-trabajos {
+  height: 100vh;
+}
+
+.tp {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
