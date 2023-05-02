@@ -1,0 +1,75 @@
+.navbar--black {
+  background-color: $primary-color;
+
+  .nav-item {
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+}
+.main {
+  margin: 0 auto;
+  width: auto;
+  height: 120vh;
+  display: grid;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #191717,
+    #2a2826,
+    #3b3936,
+    #4b4c48
+  );
+
+  h1 {
+    font-family: $font-family;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+  }
+}
+// footer
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+
+  .redes {
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+    :hover {
+      border-radius: 40%;
+      transform: scale(1.5);
+      background-image: linear-gradient(
+        to right top,
+        #062c83,
+        #364693,
+        #5561a3,
+        #737db2,
+        #929ac0
+      );
+    }
+  }
+}
+
+.parrafo-ft {
+  text-align: center;
+}

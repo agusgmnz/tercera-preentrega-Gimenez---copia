@@ -1,0 +1,91 @@
+.navbar--black {
+  background-color: #a52121;
+}
+.navbar--black .nav-item {
+  color: white;
+}
+.navbar--black a {
+  color: white;
+}
+
+.main {
+  margin: 0 auto;
+  width: auto;
+  height: 120vh;
+  display: grid;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #000000, #191717, #2a2826, #3b3936, #4b4c48);
+}
+.info-content h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+}
+.info-content p {
+  color: white;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+ul .redes {
+  text-align: center;
+  align-items: center;
+  margin: 0 10px;
+}
+ul .redes :hover {
+  border-radius: 40%;
+  transform: scale(1.5);
+  background-image: linear-gradient(to right top, #062c83, #364693, #5561a3, #737db2, #929ac0);
+}
+
+.parrafo-ft {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #000000, #191717, #2a2826, #3b3936, #4b4c48);
+}
+
+main {
+  height: 100vh;
+}
+
+.container-form {
+  color: white;
+  display: grid;
+  width: 100%;
+  align-items: center;
+}
+
+.h1-servicios {
+  color: #ffffff;
+}
+
+.container-sobremi {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+@media (min-width: 318px) and (max-width: 680px) {
+  main {
+    height: auto;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
