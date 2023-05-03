@@ -1,28 +1,28 @@
-.main-trabajos{
-    height: 100vh;
+.main-trabajos {
+  height: 100vh;
 }
 
-.tp{
-    color: white;
+section {
+  height: 100vh;
+}
+
+.tp {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-family: $font-family;
+}
+
+.text-p {
+  color: white;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  font-family: $font-family;
+
+  .card-text {
     text-align: center;
-    padding-top: 20px;
-    font-family: $font-family;
-}
-
-.text-p{
-    color: white;
-    text-align: center;
-}
-
-.card-title{
-    text-align: center;
-    font-family: $font-family;
-      
-    .card-text{
-        text-align: center;
-    }
-}
-
-.btn-primary{
-    
+  }
 }
