@@ -97,6 +97,11 @@ main {
   height: 100vh;
 }
 
+.imagen-sb {
+  max-width: 400px;
+  width: 100%;
+}
+
 .main-trabajos {
   height: 100vh;
 }
