@@ -88,6 +88,10 @@ main {
   padding-top: 50px;
 }
 
+main {
+  height: 100vh;
+}
+
 .main-trabajos {
   height: 100vh;
 }
