@@ -1,19 +1,27 @@
-body{
-    background-image: linear-gradient(to bottom, #000000, #191717, #2a2826, #3b3936, #4b4c48);
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #191717,
+    #2a2826,
+    #3b3936,
+    #4b4c48
+  );
 }
 
-main{
-    height: 100vh;
+main {
+  height: 100vh;
 }
 
-.container-form{
-    color: white;
-    display: grid;
-    width: 100%;
-    align-items: center;
+.container-form {
+  color: white;
+  display: grid;
+  width: 100%;
+  align-items: center;
 }
 
-.contactame{
-    color: white;
-    text-align: center;
+.contactame {
+  font-family: $font-family;
+  color: white;
+  text-align: center;
 }

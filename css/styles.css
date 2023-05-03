@@ -71,17 +71,20 @@ main {
 }
 
 .contactame {
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   text-align: center;
 }
 
 .servicios {
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   text-align: center;
   padding-top: 20px;
 }
 
 .titulo-barra {
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   text-align: center;
 }
@@ -91,6 +94,10 @@ main {
   text-align: center;
   justify-content: center;
   padding-top: 50px;
+}
+
+.text-sb {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 main {
@@ -110,10 +117,19 @@ main {
   color: white;
   text-align: center;
   padding-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .text-p {
   color: white;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.card-title .card-text {
   text-align: center;
 }
 

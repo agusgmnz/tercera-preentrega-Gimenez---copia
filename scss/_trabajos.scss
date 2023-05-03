@@ -6,9 +6,19 @@
     color: white;
     text-align: center;
     padding-top: 20px;
+    font-family: $font-family;
 }
 
 .text-p{
     color: white;
     text-align: center;
+}
+
+.card-title{
+    text-align: center;
+    font-family: $font-family;
+      
+    .card-text{
+        text-align: center;
+    }
 }
