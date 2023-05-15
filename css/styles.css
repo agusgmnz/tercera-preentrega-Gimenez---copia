@@ -100,20 +100,17 @@ main {
   font-family: "Josefin Sans", sans-serif;
 }
 
-main {
-  height: 100vh;
-}
-
 .imagen-sb {
   max-width: 400px;
   width: 100%;
 }
 
-.main-trabajos {
-  height: 100vh;
+body {
+  height: 100%;
+  min-height: 100vh;
 }
 
-section {
+.main-trabajos {
   height: 100vh;
 }
 
@@ -132,9 +129,6 @@ section {
 .card-title {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-}
-.card-title .card-text {
-  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
