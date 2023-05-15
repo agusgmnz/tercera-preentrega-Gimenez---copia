@@ -3,10 +3,6 @@ body{
   min-height: 100vh;
 }
 
-.main-trabajos {
-  height: 100vh;
-}
-
 .tp {
   color: white;
   text-align: center;
@@ -19,8 +15,27 @@ body{
   text-align: center;
 }
 
-.card-title {
-  text-align: center;
-  font-family: $font-family;
+.container{
+  display: flex;
+  flex-direction: column;
+  
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  h2, p {
+    text-align: center;
+  }
+}
+
 
