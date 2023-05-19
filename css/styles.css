@@ -105,11 +105,6 @@ main {
   width: 100%;
 }
 
-body {
-  height: 100%;
-  min-height: 100vh;
-}
-
 .tp {
   color: white;
   text-align: center;
@@ -122,24 +117,9 @@ body {
   text-align: center;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .card {
   display: flex;
-  flex-direction: column;
-  height: 200px;
-  width: 200px;
-}
-.card img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
-.card h2, .card p {
-  text-align: center;
+  gap: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
